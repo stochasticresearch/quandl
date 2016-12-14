@@ -2,6 +2,12 @@
 
 import quandl
 
+"""
+TODO
+ [ ] - Determine through API if we need to use Datatable or Dataset API
+ 
+"""
+
 class DataDownloader:
     def __init__(self):
         with open('api_key', 'r') as myfile:
